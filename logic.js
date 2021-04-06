@@ -1,4 +1,4 @@
-// Marker Size Based on Magnetude
+// Marker Size Based on Magnitude
 function markerSize(feature) {
   return Math.sqrt(Math.abs(feature.properties.mag)) * 5;
 }
